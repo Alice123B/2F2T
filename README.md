@@ -1,1 +1,2 @@
-# 2F2T
+# segundo trimestre - mobile-first
+Beatriz Beanhossi Lopes - N°10
