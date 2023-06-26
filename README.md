@@ -1,2 +1,2 @@
 # segundo trimestre - mobile-first
-Beatriz Avigo Antunes - N°09
+Beatriz Beanhossi Lopes - N°10
