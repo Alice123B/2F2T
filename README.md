@@ -1,2 +1,3 @@
-# segundo trimestre - mobile-first
-Beatriz Avigo - N°09
+# Segundo Trimestre - mobile-first
+
+Betriz Avigo - N°09
