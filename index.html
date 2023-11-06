@@ -4,94 +4,44 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Drogas</title>
-    <link rel="stylesheet" href="drogas.css">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/estilo.css">
+    <script src="./js/script.js"></script>
 </head>
-<body>
-  <header class="header">
+<body background="blue">
 
-    <a href="menu.html" class="logo"><img id="logo" src="verde.png" alt=""></a>
-    <!-- Hamburger icon -->
-    <input class="side-menu" type="checkbox" id="side-menu"/>
-    <label class="hamb" for="side-menu"><span class="hamb-line"></span></label>
-    <!-- Menu -->
-    <nav class="nav">
-        <ul class="menu">
-            <li><a href="#">Link 01</a></li>
-            <li><a href="#">Link 02</a> </li>
-            <li><a href="#">Sobre</a></li>
-        </ul>
-    </nav>
-    <section class="conteudo-droga">
-        <div class="definicao">
-            <div class="img-definicao">
-              <img id="img-def" src="painkillers.jpeg" alt="imagem de fundo preto com uma seringa, isqueiro, uma colher com pó e medicamentos.">
-            </div>
-            <div class="descricao">
-                <h1>O que são drogas?</h1><br>
-                <p>De acordo com o site (<a href="https://brasilescola.uol.com.br/drogas">Brasil Escola</a>) são toda e qualquer substância capaz de alterar as funções fisiológicas ou psicobiológicas de um organismo.</p>
-                <p>Dessa maneira, um analgésico ou um antiácido, frequentemente tomados para melhorar mal-estar, também são considerados drogas.</p> 
-                <p>Entretanto, o termo “drogas” é comumente usado para definir as substâncias ilícitas, ligadas ao tráfico e ao mundo do crime.</p><br>
-            </div>
-       
-        <div class="info">
-            <div class="item-1">
-                <h3>Efeitos</h3>
-                <p> O tipo de droga mais comum é a estimulante, aquela que acelera a atividade do sistema nervoso central, aumentando o estado de vigília. Apesar de seu uso ser proibido ou restrito a tratamentos médicos, é comum encontrar usuários, por vezes viciados.</p>
-                <p> No grupo de drogas estimulantes estão o crack, a cocaína, o ecstasy e a anfetamina, porém, essa tem utilização regularmentada para o tratamento de alguns transtornos neurológicos.</p><br>
-            </div>
-            <div class="item-2">
-                <br><p> Existem também as <strong>drogas depressoras </strong>diminuem a atividade do SNC (Sistema Nervoso Central), podendo causar delírios. É o caso dos inalantes, como cola e outros solventes. Na medicina é comum o uso desse tipo de droga pra tratar insônia e ansiedade, com soníferos e ansiolíticos, respectivamente.</p> 
-            </div>
-            <div class="item-3">
-                <br><p> A última categoria de drogas são as <strong>perturbadoras</strong>. Em princípio, elas causam uma sensação de bem-estar e diminuem o cansaço. No entanto, provocam também alteração na noção de tempo e espaço, além de delírios e alucinações. Encontram-se nesse grupo drogas como maconha, LSD e haxixe.</p><br>
-            </div>
-            <div class="item-4">
-                <img src="efeitos.jpeg" alt="um homem escorado na parede com a cabeça baixa.">
-            </div>
-            <div class="item-5">
-                <img src="cola.jpeg" alt="na imagem esta presente uma colher com pó e alguns comprimidos ">
-            </div>
-            <div class="item-6">
-                ITEM 6
-            </div>
+    <section class="calculadora">
+        <div class="display_calc">
+            <input id="resultado" readonly value="0" type="text">
 
         </div>
-       </div>  
-   </section>
-    <!--
-    <section class="conteudo">
-        <div class="geral">
-            <h1>    O que são drogas?</h1><br>
-            <p> De acordo com o site (<a href="https://brasilescola.uol.com.br/drogas">Brasil Escola</a>) são toda e qualquer substância capaz de alterar as funções fisiológicas ou psicobiológicas de um organismo. Dessa maneira, um analgésico ou um antiácido, frequentemente tomados para melhorar mal-estar, também são considerados drogas. Entretanto, o termo “drogas” é comumente usado para definir as substâncias ilícitas, ligadas ao tráfico e ao mundo do crime.</p><br>
-        </div>
-        <div class="item1">
-            <img src="painkillers.jpeg" alt="imagem de fundo preto com uma seringa, isqueiro, uma colher com pó e medicamentos."><br>
-        </div>
-        <div class="item2">
-            <h2>Efeitos</h2><br>
-            <p> O tipo de droga mais comum é a estimulante, aquela que acelera a atividade do sistema nervoso central, aumentando o estado de vigília. Apesar de seu uso ser proibido ou restrito a tratamentos médicos, é comum encontrar usuários, por vezes viciados.</p>
-            <p> No grupo de drogas estimulantes estão o crack, a cocaína, o ecstasy e a anfetamina, porém, essa tem utilização regularmentada para o tratamento de alguns transtornos neurológicos.</p><br>
-        </div>
-        <div class="item3">
-            <img src="efeitos.jpeg" alt="um homem escorado na parede com a cabeça baixa.">
-        </div>
-        <div class="item4">
-            <br><p> Existem também as <strong>drogas depressoras </strong>diminuem a atividade do SNC (Sistema Nervoso Central), podendo causar delírios. É o caso dos inalantes, como cola e outros solventes. Na medicina é comum o uso desse tipo de droga pra tratar insônia e ansiedade, com soníferos e ansiolíticos, respectivamente.</p>
-        </div> 
-        <div class="item5">
-            <img src="cola.jpeg" alt="na imagem esta presente uma colher com pó e alguns comprimidos ">
-        </div>
-        <div class="item6">
-            <br><p> A última categoria de drogas são as <strong>perturbadoras</strong>. Em princípio, elas causam uma sensação de bem-estar e diminuem o cansaço. No entanto, provocam também alteração na noção de tempo e espaço, além de delírios e alucinações. Encontram-se nesse grupo drogas como maconha, LSD e haxixe.</p><br>
-        </div>
+         <div class="btn">
+             <button onclick="onoff()">On</button>
+           <button onclick="zerar()">C</button>
+           <button onclick="porcentagem()">%</button>
+           <button onclick="raiz_quadrada()">&#8730;</button>
+
+            <button onclick="digitando('7')">7</button>
+           <button onclick="digitando('8')">8</button>
+           <button onclick="digitando('9')">9</button>
+           <button onclick="operacao('div')">&#247</button>
+           <button onclick="digitando('4')">4</button>
+           <button onclick="digitando('5')">5</button>
+           <button onclick="digitando('6')">6</button>
+           <button onclick="operacao('mult')">x</button>
+           <button onclick="digitando('1')">1 </button>
+           <button onclick="digitando('2')">2</button>
+           <button onclick="digitando('3')">3</button>
+           <button onclick="operacao('sub')">-</button>
+           <button onclick="digitando('0')">0</button>
+           <button onclick="digitando('.')">.</button>
+           <button onclick="operacao('soma')">+</button>
+           <button onclick="calcula()" id="btn_igual">=</button>
+           
+         </div>
     </section>
-    -->
-
-    <footer class="rodape">
-        @Gastão_Vidigal<br>
-        Segundo F - Manhã<br>
-        @Beatrz_Avigo - n°09
-    </footer>
+<script>
+    onoff();
+</script>
 </body>
 </html>
